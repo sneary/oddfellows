@@ -5,7 +5,7 @@ import datetime
 import requests
 
 
-ODDFELLOWS_WEBHOOK_URL = 'https://discord.com/api/webhooks/1336396736121409536/EkZEqeva-Hjo0Nq1Po83S9HIKHCOQwvqrIsq8aOBEb9LtmBFIe2u7KE3cuT1deHWWEWg'
+ODDFELLOWS_WEBHOOK_URL = 'SECRET PLEASE ASK ME AND I WILL SEND IT TO YOU'
 
 
 def is_nth_weekday(date_obj, weekday, n):
