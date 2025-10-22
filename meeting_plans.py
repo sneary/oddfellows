@@ -74,7 +74,6 @@ def send_first_wednesday_message():
         send_to_discord(ODDFELLOWS_WEBHOOK_URL, message)
     else:
         # This else block should ideally not be hit if scheduled correctly,
-        # but is good for robust function design.
         print(f"[{current_time}] Not the first Wednesday. Skipping First Wednesday message.")
 
 
